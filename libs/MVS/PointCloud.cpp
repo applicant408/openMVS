@@ -270,14 +270,14 @@ namespace BasicPLY {
 				ply.describe_property(elem_names[0], 3, props+3);
 			if (bNormals)
 				ply.describe_property(elem_names[0], 3, props+6);
-			if (bViews)
+			//if (bViews)
 				ply.describe_property(elem_names[0], props[9]);
-			if (bWeights)
-				ply.describe_property(elem_names[0], props[10]);
-			if (bConfidence)
-				ply.describe_property(elem_names[0], props[11]);
-			if (bScale)
-				ply.describe_property(elem_names[0], props[12]);
+			//if (bWeights)
+			//	ply.describe_property(elem_names[0], props[10]);
+			//if (bConfidence)
+			//	ply.describe_property(elem_names[0], props[11]);
+			//if (bScale)
+			//	ply.describe_property(elem_names[0], props[12]);
 			if (elem_count)
 				ply.element_count(elem_names[0], elem_count);
 		}
